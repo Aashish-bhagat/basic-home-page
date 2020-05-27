@@ -1,0 +1,86 @@
+.navbar{
+    overflow: hidden;
+    text-align:left;
+    background-color:transparent  ;
+    position:fixed;
+    top: 0;
+    width: 96%;
+}
+.navbar a {
+   float: right;
+   margin-right: 15px;
+   display: block;
+   color:black;
+   text-align: left;
+   padding: 10px 10px;
+   font-size: 25px;
+}
+.navbar a:hover {
+background: #ddd;
+color: black;
+
+}
+.container {
+    position: relative; 
+    text-align: center;
+    color: white;
+    top: 27px;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+.main{
+   
+    padding: 16px;
+    margin-top: 0   px;
+   height: 1500px;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.about{
+  font-size: 50px;
+  }
+  .columnabout {
+    float: left;
+    width: 25%;
+    padding: 75px;
+  }
